@@ -1,0 +1,151 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: radial-gradient(pink, yellow, orange);
+  height: 140vh;
+  padding: 30px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'bree serif';
+  color: blue;
+}
+
+.timer-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-inner-container {
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-items-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, skyblue, white);
+  width: 400px;
+  height: 400px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px 7px #000000;
+}
+
+.timer-heading {
+  color: red;
+}
+
+.timer-paragraph {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.inner-timer-items-container {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button-text-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-img {
+  background-color: transparent;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.play-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.start-paragraph {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.timer-limit-para {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  font-family: 'bree serif';
+}
+
+.plus-minus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-plus-minus-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.timer-para-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.para-timer-style {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.btn-add-or-minus {
+  font-weight: bold;
+  color: #000000;
+  font-size: 40px;
+  margin: 25px;
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: yellow;
+  width: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 3px black;
+}
+
+.para-start-pause {
+  font-size: 30px;
+}
